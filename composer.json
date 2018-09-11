@@ -1,0 +1,18 @@
+{
+    "name": "arq/global-functions",
+    "description": "Twig functions example for sample distributed application",
+    "type": "library",
+    "require": {
+        "twig/extensions": "^1.5"
+    },
+    "authors": [
+        {
+            "name": "Isaac Herrera",
+            "email": "isaacherrera47@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"Arq\\": "src/"}
+    }
+}
