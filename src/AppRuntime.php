@@ -15,6 +15,6 @@ class AppRuntime implements RuntimeExtensionInterface
 
     public function getGlobalAsset($name)
     {
-        return strtoupper($name);
+        return  '/arq/assets/' . $name;
     }
 }
