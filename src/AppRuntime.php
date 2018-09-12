@@ -1,6 +1,6 @@
 <?php
 
-namespace Arq\Functions;
+namespace Arq;
 
 use Twig\Extension\RuntimeExtensionInterface;
 
@@ -15,6 +15,6 @@ class AppRuntime implements RuntimeExtensionInterface
 
     public function getGlobalAsset($name)
     {
-        return __DIR__ . '/../../../assets/' . $name;
+        return strtoupper($name);
     }
 }

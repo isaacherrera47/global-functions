@@ -1,6 +1,6 @@
 <?php
 
-namespace Arq\Functions;
+namespace Arq;
 
 use Twig\Extension\AbstractExtension;
 use Twig\TwigFunction;
